@@ -1,0 +1,81 @@
+body {
+	line-height: 1;
+  height: 300px;
+  width: 400px;
+  margin: 0px;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  height: 15vh;
+  border-bottom: 1px solid silver;
+}
+.header .center strong{
+  font-size: larger;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  height: 63.5vh;
+  padding: 1rem;
+  overflow: auto;
+  margin-top: 1rem;
+}
+.content #msgContent{
+  margin: 0px 1rem 0px 1rem;
+}
+.content .grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+
+.content .grid div.border{
+  border: 1px solid #43AA8B;
+  border-radius: 8px;
+  height: 15vh;
+}
+
+.borderheader{
+  border-bottom: 1px solid #43AA8B;
+  background-color: #43AA8B;
+  color: black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 6vh;
+}
+
+.time{
+  height: 8.5vh;
+}
+
+.divbutton{
+  margin-top:1rem;
+  width: 100%;
+  text-align: end;
+}
+
+button{
+  background-color: #EF3054;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.footer{
+  height: 10vh;
+    border-top: 1px solid silver;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
