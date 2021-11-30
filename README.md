@@ -7,3 +7,7 @@
 ---  
 
 The project is a chrome extension to manage employer clockin in their jobs.
+
+---  
+
+Developed by [Me](https://github.com/EltonAlvess) and [Aleksandro Carlos](https://github.com/aleksandrocarlos)
